@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/money"
+        android:scaleType="center"/>
+
+    <TextView
+        android:id="@+id/Textid51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SavExtra"
+        android:textSize="60sp"
+        android:fontFamily="cursive"
+        android:paddingLeft="85dp"
+        android:textColor="#000000"/>
+    <TextView
+        android:id="@+id/Textid52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your shopping bills !"
+        android:textSize="30sp"
+        android:fontFamily="cursive"
+        android:paddingLeft="55dp"
+        android:layout_marginTop="70dp"
+        android:textColor="#000000"/>
+    <TextView
+        android:id="@+id/Textid53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clothes"
+        android:textStyle="bold"
+        android:layout_marginTop="120dp"
+        android:textSize="25sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginLeft="30dp"
+        android:fontFamily="sans-serif-smallcaps"/>
+    <TextView
+        android:id="@+id/Textid54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(adults)"
+        android:layout_marginTop="140dp"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginLeft="35dp"
+        android:fontFamily="sans-serif-smallcaps"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="115dp"
+        android:inputType="number"
+        android:layout_marginLeft="180dp"
+        android:id="@+id/clothesA"
+        android:textColor="@color/colorPrimary"
+        android:hint="       $Clothes bill$" />
+    <TextView
+        android:id="@+id/Textid55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clothes"
+        android:textStyle="bold"
+        android:layout_marginTop="180dp"
+        android:textSize="25sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginLeft="30dp"
+        android:fontFamily="sans-serif-smallcaps"/>
+
+    <TextView
+        android:id="@+id/Textid56"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(kids)"
+        android:layout_marginTop="200dp"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginLeft="40dp"
+        android:fontFamily="sans-serif-smallcaps"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="175dp"
+        android:layout_marginLeft="180dp"
+        android:inputType="number"
+        android:id="@+id/clothesK"
+        android:textColor="@color/colorPrimary"
+        android:hint="       $Clothes bill$" />
+
+    <TextView
+        android:id="@+id/Textid57"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cosmetics"
+        android:layout_marginTop="240dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginLeft="30dp"
+        android:fontFamily="sans-serif-smallcaps"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="235dp"
+        android:inputType="number"
+        android:layout_marginLeft="180dp"
+        android:id="@+id/cosmetics"
+        android:textColor="@color/colorPrimary"
+        android:hint="       $Cosmetics bill$" />
+
+    <TextView
+        android:id="@+id/Textid58"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Accessories"
+        android:textStyle="bold"
+        android:layout_marginTop="300dp"
+        android:textSize="25sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginLeft="30dp"
+        android:fontFamily="sans-serif-smallcaps"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="180dp"
+        android:id="@+id/accessories"
+        android:inputType="number"
+        android:textColor="@color/colorPrimary"
+        android:hint="   $Accessories bill$" />
+
+    <TextView
+        android:id="@+id/Textid59"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Food items"
+        android:textStyle="bold"
+        android:layout_marginTop="360dp"
+        android:textSize="25sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginLeft="30dp"
+        android:fontFamily="sans-serif-smallcaps"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="180dp"
+        android:id="@+id/food"
+        android:textColor="@color/colorPrimary"
+        android:hint="       $Food bill$" />
+
+    <TextView
+        android:id="@+id/Textid510"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happy spending !!"
+        android:textSize="30sp"
+        android:fontFamily="cursive"
+        android:paddingLeft="95dp"
+        android:layout_marginTop="450dp"
+        android:textColor="#000000"/>
+    <Button
+        android:id="@+id/Button51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="230dp"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/shoppingsave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="@color/colorPrimary"
+        android:text="SAVE"
+        android:textStyle="bold"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="400dp"
+        android:textSize="20sp"/>
+</RelativeLayout>

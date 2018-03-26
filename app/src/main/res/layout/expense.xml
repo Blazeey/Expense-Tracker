@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="368dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/money"
+        android:scaleType="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SavExtra"
+        android:textSize="60sp"
+        android:fontFamily="cursive"
+        android:paddingLeft="85dp"
+        android:textColor="#000000"
+        android:id="@+id/textView" />
+    <TextView
+        android:id="@+id/Textid0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happy spending !!"
+        android:textSize="40sp"
+        android:fontFamily="cursive"
+        android:paddingLeft="60dp"
+        android:layout_marginTop="70dp"
+        android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/Button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="170dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/Textid01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dont have an account?! Sign up!"
+        android:textSize="27sp"
+        android:fontFamily="cursive"
+        android:paddingLeft="24dp"
+        android:layout_marginTop="360dp"
+        android:textColor="#000000"/>
+    <Button
+        android:id="@+id/Button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"/>
+
+
+</RelativeLayout>

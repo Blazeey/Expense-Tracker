@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/money"
+        android:scaleType="center"/>
+
+    <TextView
+        android:id="@+id/Textid61"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SavExtra"
+        android:textSize="60sp"
+        android:fontFamily="cursive"
+        android:paddingLeft="95dp"
+        android:textColor="#000000"/>
+    <TextView
+        android:id="@+id/Textid62"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your banking bills !"
+        android:textSize="30sp"
+        android:fontFamily="cursive"
+        android:paddingLeft="55dp"
+        android:layout_marginTop="70dp"
+        android:textColor="#000000"/>
+    <TextView
+        android:id="@+id/Textid63"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Fixed deposit"
+        android:layout_marginTop="140dp"
+        android:textSize="25sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginLeft="120dp"
+        android:fontFamily="sans-serif-smallcaps"/>
+    <TextView
+        android:id="@+id/Textid65"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Insurance policies"
+        android:layout_marginTop="260dp"
+        android:textSize="25sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginLeft="90dp"
+        android:fontFamily="sans-serif-smallcaps"/>
+    <TextView
+        android:id="@+id/Textid610"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happy spending !!"
+        android:textSize="30sp"
+        android:fontFamily="cursive"
+        android:paddingLeft="105dp"
+        android:layout_marginTop="450dp"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="290dp"
+        android:id="@+id/policy"
+        android:textColor="@color/colorPrimary"
+        android:hint="                            $Policy amount$" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:id="@+id/fixeddeposit"
+        android:textColor="@color/colorPrimary"
+        android:hint="                            $Deposit amount$" />
+
+
+    <Button
+        android:id="@+id/Button61"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="@color/colorPrimary"
+        android:text="BACK"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="230dp"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/savebank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="@color/colorPrimary"
+        android:text="SAVE"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="400dp"
+
+
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+</RelativeLayout>
+
+
+

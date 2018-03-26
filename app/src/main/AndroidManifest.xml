@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aksha.expensetracker">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".expense">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".expense2" />
+        <activity android:name=".expense3" />
+        <activity android:name=".expense4" />
+        <activity android:name=".expense5" />
+        <activity android:name=".expense6" />
+        <activity android:name=".expense7" />
+        <activity android:name=".expense1" />
+        <activity android:name=".expense8" />
+        <activity android:name=".expense9" />
+        <activity android:name=".expense10"></activity>
+    </application>
+
+</manifest>

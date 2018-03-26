@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/money"
+        android:scaleType="center"
+        />
+    <TextView
+        android:id="@+id/Textid11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SavExtra"
+        android:textSize="60sp"
+        android:fontFamily="cursive"
+        android:paddingLeft="95dp"
+        android:textColor="#000000"/>
+    <TextView
+        android:id="@+id/Textid12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happy spending !!"
+        android:textSize="40sp"
+        android:fontFamily="cursive"
+        android:paddingLeft="60dp"
+        android:layout_marginTop="70dp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username/Email"
+        android:textStyle="bold"
+        android:layout_marginLeft="60dp"
+        android:textSize="25sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="150dp"
+        android:fontFamily="sans-serif-smallcaps"/>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textStyle="bold"
+        android:layout_marginLeft="60dp"
+        android:textSize="25sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="250dp"
+        android:fontFamily="sans-serif-smallcaps"/>
+    <EditText
+
+        android:layout_width="250dp"
+        android:id="@+id/pass"
+        android:layout_height="wrap_content"
+        android:hint="Enter password"
+        android:inputType="textPassword"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="285dp"/>
+
+    <EditText
+
+        android:id="@+id/e11"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter username/email"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="185dp"/>
+    <Button
+        android:id="@+id/Button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SAVE ACCOUNT"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="90dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"/>
+
+    </RelativeLayout>

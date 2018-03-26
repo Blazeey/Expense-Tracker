@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/money"
+        android:scaleType="center"/>
+
+    <TextView
+        android:id="@+id/Textid11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SavExtra"
+        android:textSize="60sp"
+        android:fontFamily="cursive"
+        android:paddingLeft="85dp"
+        android:textColor="#000000"/>
+    <TextView
+        android:id="@+id/Textid22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your household bills !"
+        android:textSize="30sp"
+        android:fontFamily="cursive"
+        android:paddingLeft="55dp"
+        android:layout_marginTop="70dp"
+        android:textColor="#000000"/>
+    <TextView
+        android:id="@+id/Textid33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grocery"
+        android:textStyle="bold"
+        android:layout_marginTop="120dp"
+        android:textSize="25sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginLeft="30dp"
+        android:fontFamily="sans-serif-smallcaps"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="115dp"
+        android:layout_marginLeft="180dp"
+        android:inputType="number"
+        android:id="@+id/grocery"
+        android:textColor="@color/colorPrimary"
+        android:hint="       $Grocery bill$" />
+    <TextView
+        android:id="@+id/Textid44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cable"
+        android:textStyle="bold"
+        android:layout_marginTop="180dp"
+        android:textSize="25sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginLeft="30dp"
+        android:fontFamily="sans-serif-smallcaps"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="175dp"
+        android:layout_marginLeft="180dp"
+        android:inputType="number"
+        android:id="@+id/cable"
+        android:textColor="@color/colorPrimary"
+        android:hint="       $Cable bill$" />
+
+    <TextView
+        android:id="@+id/Textid55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Electricity"
+        android:textStyle="bold"
+        android:layout_marginTop="240dp"
+        android:textSize="25sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginLeft="30dp"
+        android:fontFamily="sans-serif-smallcaps"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="235dp"
+        android:layout_marginLeft="180dp"
+        android:inputType="number"
+        android:id="@+id/electricity"
+        android:textColor="@color/colorPrimary"
+        android:hint="       $Electricity bill$" />
+
+    <TextView
+        android:id="@+id/Textid66"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Water"
+        android:layout_marginTop="300dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginLeft="30dp"
+        android:fontFamily="sans-serif-smallcaps"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="180dp"
+        android:inputType="number"
+        android:id="@+id/water"
+        android:textColor="@color/colorPrimary"
+        android:hint="       $Water bill$" />
+
+    <TextView
+        android:id="@+id/Textid77"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Newspaper"
+        android:textStyle="bold"
+        android:layout_marginTop="360dp"
+        android:textSize="25sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginLeft="30dp"
+        android:fontFamily="sans-serif-smallcaps"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="180dp"
+        android:id="@+id/newspaper"
+        android:inputType="number"
+        android:textColor="@color/colorPrimary"
+        android:hint="       $Newspaper bill$" />
+
+    <TextView
+        android:id="@+id/Textid88"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happy spending !!"
+        android:textSize="30sp"
+        android:fontFamily="cursive"
+        android:paddingLeft="95dp"
+        android:layout_marginTop="480dp"
+        android:textColor="#000000"/>
+    <Button
+        android:id="@+id/Button41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="230dp"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/housesavebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="@color/colorPrimary"
+        android:text="SAVE"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="400dp"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+</RelativeLayout>
+
+
+
+
+
+

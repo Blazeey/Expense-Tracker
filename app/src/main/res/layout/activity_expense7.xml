@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/money"
+        android:scaleType="center"
+       />
+    <TextView
+        android:id="@+id/Textid71"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SavExtra"
+        android:textSize="60sp"
+        android:fontFamily="cursive"
+        android:paddingLeft="95dp"
+        android:textColor="#000000"/>
+    <TextView
+        android:id="@+id/Textid73"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Vacation"
+        android:layout_marginTop="130dp"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginLeft="120dp"
+        android:fontFamily="sans-serif-smallcaps"/>
+    <TextView
+        android:id="@+id/Textid75"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Gifts"
+        android:layout_marginTop="260dp"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginLeft="150dp"
+        android:fontFamily="sans-serif-smallcaps"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="290dp"
+        android:id="@+id/gift"
+        android:textColor="@color/colorPrimary"
+        android:inputType="number"
+        android:hint="                            $Amount spent$" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:id="@+id/vacation"
+        android:inputType="number"
+        android:textColor="@color/colorPrimary"
+        android:hint="                            $Amount spent$" />
+
+    <TextView
+        android:id="@+id/Textid710"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happy spending !!"
+        android:textSize="30sp"
+        android:fontFamily="cursive"
+        android:paddingLeft="105dp"
+        android:layout_marginTop="450dp"
+        android:textColor="#000000"/>
+    <Button
+        android:id="@+id/Button71"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="@color/colorPrimary"
+        android:text="BACK"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="400dp"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/extrasavebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="@color/colorPrimary"
+        android:text="SAVE"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="400dp"
+
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+</RelativeLayout>
+
